@@ -1,11 +1,11 @@
 .container{
-    margin-bottom: 100px;
+    margin-bottom: 40px;
 }
-
-.orange_bg
-{
-    background-color: #FEEAE9;
-    border-radius: 8px;
+header{
+    background-image: url("assets/img/biography-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .carousel-item{
@@ -18,7 +18,7 @@
 
 .click_btn,.click_btn1{
     padding: 9px 25px;
-    background-image: linear-gradient(to Bottom, #FF589F 0%, #FF136F 100%);
+    background-color: black;
     color: white;
     border: 0px;
     border-radius: 8px;
@@ -75,4 +75,14 @@
 
 footer .container {
     margin-bottom: 0px;
+}
+
+#color_all{
+    color: #E5972A;
+}
+
+.carousel-indicators .active{
+    background-color: #FFC121;
+    height: 6px;
+    border-radius: 3px;
 }
