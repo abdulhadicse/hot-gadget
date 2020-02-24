@@ -1,11 +1,11 @@
+*{
+    font-family: 'Poppins', ;
+}
 .container{
     margin-bottom: 40px;
 }
 header{
-    background-image: url("assets/img/biography-bg.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    
 }
 
 .carousel-item{
@@ -79,6 +79,7 @@ footer .container {
 
 #color_all{
     color: #E5972A;
+    font-weight: bold;
 }
 
 .carousel-indicators .active{
